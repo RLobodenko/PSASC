@@ -1,0 +1,10 @@
+library_ex:
+  version: 1.x
+  css:
+    base:
+      css/layout.css: {}
+  js:
+    js/library_ex.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

@@ -1,0 +1,5 @@
+name: Library
+description: Данный модуль демонстрирует использование библиотек в Drupal 8
+core: 8.x
+package: Drupalfly
+type: module
