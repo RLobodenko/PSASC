@@ -501,6 +501,7 @@ section.main .logos {
 	margin-top: -730px;
 position:relative;
  background-size:cover;
+ flex-wrap: wrap;
  
  }
 .round_1::after {
