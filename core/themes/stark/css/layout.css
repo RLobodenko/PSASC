@@ -338,6 +338,7 @@ section.description {
     line-height: 55px;
     margin-bottom: 30px;
 	margin-left: 140px;
+
 }
 
 
@@ -635,6 +636,7 @@ section.main .logos {
 
 .black_1 {
 background: url(/core/themes/stark/images/pattern.png);
+
 }
 
 
@@ -745,15 +747,66 @@ section.agenda .line {
 .alliance {
 	margin-left: 160px;
 	font-size: 25px;
-	
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .get  {
 	margin-left: 160px;
-	
-	
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;	
+
 }
 
+section.join .join-info .text ul li::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: 
+    black;
+    border-radius: 50%;
+    left: 0;
+    top: 5px;
+}
+
+.text_2 {
+	margin-bottom: 20px;
+
+text-transform: uppercase;
+	color: white;
+	
+	font-size: 1rem;
+
+font-weight: 400;
+
+line-height: 1.5;
+
+
+
+}
+
+
+.text_2 {
+		color: white;
+		
+text-transform: uppercase;
+	
+}
+.title_2 {
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+
+.form {
+	
+	color: white;
+	
+}
 
 .form_1 {
 	 
@@ -778,6 +831,7 @@ section.join #form-bg {
     right: 0;
     top: 25%;
     border-top: 7px solid #FFD500;
+	 color: white;
 }
 
 
@@ -797,6 +851,7 @@ section.join .form .input-wrapper {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
+	 color: white;
 }
 
 
@@ -842,16 +897,59 @@ section.join .form .input-wrapper {
 }
 
 .words {
-	
+	padding-bottom: 140px;
 	font-size: 50px;
 }	
 	.words_1 {
 	padding-left: 0px;
 	font-size: 30px;
+	padding-bottom: 70px;
 }
-		.words_2 {
+	.words_2 {
 	padding-left: 60px;
 	font-size: 18px;
+}
+
+	.words_3 {
+	padding-bottom: 240px;
+	font-size: 50px;
+}
+
+	.words_5 {
+	padding-bottom: 140px;
+	font-size: 50px;
+}
+
+	.words_7 {
+	padding-bottom: 140px;
+	font-size: 50px;
+}
+
+	.words_9 {
+	font-size: 50px;
+}
+
+.words_4 {
+	padding-left: 0px;
+	font-size: 30px;
+	padding-bottom: 80px;
+}
+
+.words_6 {
+	padding-left: 0px;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+
+.words_8 {
+	padding-left: 0px;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.words_10 {
+	font-size: 30px;
 }
 
 .words_a {
@@ -907,17 +1005,6 @@ section.description .row .description-2 {
 	
 }
 
-	ul {
-		list-style: none;
-		}
-		a {
-		text-decoration: none;
-
-		}
-		li {
-		float:right;
-		margin-right:70px;
-		}
 		
 .image {
 	padding-left: 30px;
@@ -1009,4 +1096,11 @@ section.summit .text-summit {
 }
 .contact_us {
 	color: black;	
+}
+
+
+.membership {
+	
+	padding-left: 30px;
+	
 }
