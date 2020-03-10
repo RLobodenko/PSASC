@@ -96,13 +96,20 @@ a.button {
     transition: .25s ease-in-out;
     border: 0;
     outline: none;
+	padding-left: 200px;
 }
 
 @media (min-width: 1200px)
 .button-desktop {
     display: inline-block;
+	padding-left: 200px;
 }
 
+
+section.agenda .title {
+    font-family: 'Vidaloka', serif;
+    font-size: 79px;
+}
 
 ection.join .join-info .title {
     font-size: 50px;
@@ -323,6 +330,7 @@ section.join #form-bg {
 .text {
     font-family: 'Vidaloka', serif;
     font-size: 47px;
+	padding-left: 10px;
 }
 
 
@@ -420,7 +428,7 @@ section.description .row .description-1 {
 
 .description_1 {
 	font-size: 47px;
-	font-family: 'Vidaloka', serif;
+	font-family: 'Vidaloka', sans-serif;
 	
 }
 
@@ -680,18 +688,162 @@ background-color: #FEF9EC;
 background-color: #FFD500;;	
 }
 
+
+
+
+
+
+
+footer {
+    background: url(/core/themes/stark/images/pattern.png);
+        background-size: auto;
+    background-size: 25%;
+}
+
+
+footer .container {
+    height: 700px;
+    padding-bottom: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container {
+    max-width: 1821px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+footer .container .map {
+    position: absolute;
+    top: 15%;
+    width: 90%;
+    height: 70%;
+    background: url(/core/themes/stark/images/map.png) no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+.offset-md-1 {
+    margin-left: 8.333333%;
+}
+
+
+
+
+
+footer .container .title {
+    color: 
+    white;
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-bottom: 30px;
+	margin-left:0;
+	font-family: 'Helvetica', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+
 .earth {
 background-image: url(/core/themes/stark/images/map.png);
-background-color: black;
-background-size: 100%;
-width: 100%;
+
+margin: 0 auto;
+background-size: contain;
+background-position: center;
+top: 15%;
+width: 90%;
+height: 70%;
 }
+
+.grey_1 {
+   background: url(/core/themes/stark/images/pattern.png);
+background-size: 25%;
+}
+
+grey_1 .second {
+    height: 700px;
+    padding-bottom: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+
+
+footer .container .address {
+    color: 
+    white;
+}
+
+footer .container .email {
+    border-bottom: 3px solid 
+    #FFD500;
+    padding-bottom: 5px;
+    transition: .2s;
+}
+
+
+footer .container .email a {
+    color: 
+    white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .1 {
 	background-image: url(/core/themes/stark/images/15.png);
-	
 }
-
 
 .whitetext {
 color: white;
@@ -945,7 +1097,7 @@ section.join .form .input-wrapper {
 .words_8 {
 	padding-left: 0px;
 	font-size: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 190px;
 }
 
 .words_10 {
@@ -969,6 +1121,7 @@ section.join .form .input-wrapper {
 
 .col-md-3 description-2 round {
 	background-color: yellow;
+
 }
 
 
@@ -1103,4 +1256,153 @@ section.summit .text-summit {
 	
 	padding-left: 30px;
 	
+}
+
+
+
+section.join .form .input-wrapper .name-wrapper .name-container input {
+    width: 100%;
+}
+
+
+
+section.join .form .input-wrapper input:not([type="submit"]), section.join .form .input-wrapper select, section.join .form .input-wrapper textarea {
+    color: 
+white;
+background:
+transparent;
+border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+border-bottom: 1px solid
+    white;
+    padding: 7px 5px;
+    margin-bottom: 30px;
+    outline: none;
+    resize: none;
+}
+
+
+input {
+    overflow: visible;
+}
+	
+	 input {
+    margin: 0;
+        margin-bottom: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+section.join .form .input-wrapper input:not([type="submit"]):hover, section.join .form .input-wrapper select:hover, section.join .form .input-wrapper textarea:hover {
+    border-bottom: 1px solid 
+#806F00;
+}
+
+
+section.join .form .input-wrapper input:not([type="submit"]), section.join .form .input-wrapper select, section.join .form .input-wrapper textarea {
+    color: 
+white;
+background:
+    transparent;
+    border: 0;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+    border-bottom: 1px solid white;
+    padding: 7px 5px;
+    margin-bottom: 30px;
+    outline: none;
+    resize: none;
+}
+
+
+
+}
+	
+	
+	section.join .form .input-wrapper select {
+    -webkit-appearance: none;
+    border-radius: 0;
+    width: 100%;
+}
+
+
+
+section.join .form .input-wrapper input:not([type="submit"]), section.join .form .input-wrapper select, section.join .form .input-wrapper textarea {
+    color: 
+white;
+background:
+transparent;
+border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+border-bottom: 1px solid
+    white;
+    padding: 7px 5px;
+    margin-bottom: 30px;
+    outline: none;
+    resize: none;
+}
+
+
+
+select {
+    word-wrap: normal;
+}
+
+
+button, select {
+    text-transform: none;
+}
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+        margin-bottom: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+
+section.join .form .input-wrapper textarea {
+    margin-bottom: 10px;
+}
+
+
+section.join .form .input-wrapper input:not([type="submit"]), section.join .form .input-wrapper select, section.join .form .input-wrapper textarea {
+    color: 
+white;
+background:
+transparent;
+border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+border-bottom: 1px solid
+    white;
+    padding: 7px 5px;
+    margin-bottom: 30px;
+    outline: none;
+    resize: none;
+}
+
+.input-wrapper input, select, textarea {
+	background: transparent;
+	height: 39px;
+}
+
+.black_1 .input-wrapper .input-wrapper select:focus, section.join .form .input-wrapper input:focus:hover {
+	     border-bottom: 1px solid #FFD500;
+		
+ }
+.black_1 .input-wrapper input:not([type="submit"]):focus, section.join .form .input-wrapper input:not([type="submit"]):focus:hover, section.join .form .input-wrapper select:focus, section.join .form .input-wrapper select:focus:hover, section.join .form .input-wrapper textarea:focus, section.join .form .input-wrapper textarea:focus:hover {
+    border-bottom: 1px solid 
+    #FFD500;
 }
