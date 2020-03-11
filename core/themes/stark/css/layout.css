@@ -88,7 +88,7 @@ a.button {
 .button {
     display: inline-block;
     padding: 10px 30px 8px;
-    background: #FFD500;
+    background: #FFD500 !important;
     text-transform: uppercase;
     font-weight: bold;
     color: black;
@@ -493,6 +493,7 @@ section.main .logos {
     width: 100px;
     text-align: center;
     margin-left: 35px;
+	margin-top: -120px;
 }
 
 
@@ -908,7 +909,23 @@ section.agenda .line {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;	
-
+}
+.get li {
+	padding-bottom: 15px;
+	list-style: none;
+	padding-left: 25px;
+	position: relative;
+	list-style: none;
+}
+.get li::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    left: 0;
+    top: 5px;
 }
 
 section.join .join-info .text ul li::before {
@@ -951,6 +968,33 @@ text-transform: uppercase;
 	color: white;
 	font-weight: bold;
 	line-height: 60px;
+}
+
+
+.title_3 {
+	
+	color: white;
+	
+}
+
+.text_3 {
+	
+	color: white;
+	font-weight: 400;
+	
+}
+
+.text_4 span {
+	
+	color: white;
+	
+}
+
+
+.text_5 {
+	
+	color: white;
+	
 }
 
 
@@ -1058,7 +1102,7 @@ section.join .form .input-wrapper {
 	padding-bottom: 70px;
 }
 	.words_2 {
-	padding-left: 60px;
+	padding-left: 100px;
 	font-size: 18px;
 }
 
@@ -1073,7 +1117,7 @@ section.join .form .input-wrapper {
 }
 
 	.words_7 {
-	padding-bottom: 140px;
+	padding-bottom: 250px;
 	font-size: 50px;
 }
 
@@ -1097,7 +1141,7 @@ section.join .form .input-wrapper {
 .words_8 {
 	padding-left: 0px;
 	font-size: 30px;
-	padding-bottom: 190px;
+	padding-bottom: 160px;
 }
 
 .words_10 {
@@ -1373,6 +1417,18 @@ button, input, optgroup, select, textarea {
 
 section.join .form .input-wrapper textarea {
     margin-bottom: 10px;
+	color: white;
+background: transparent;
+border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+border-bottom: 1px solid white;
+padding: 7px 5px;
+margin-bottom: 30px;
+outline: none;
+resize: none;
+overflow: auto;
 }
 
 
@@ -1405,4 +1461,47 @@ border-bottom: 1px solid
 .black_1 .input-wrapper input:not([type="submit"]):focus, section.join .form .input-wrapper input:not([type="submit"]):focus:hover, section.join .form .input-wrapper select:focus, section.join .form .input-wrapper select:focus:hover, section.join .form .input-wrapper textarea:focus, section.join .form .input-wrapper textarea:focus:hover {
     border-bottom: 1px solid 
     #FFD500;
+}
+
+
+.col-12 {
+	
+	margin-left: 500px;
+	
+	
+}
+#country, #info {
+	width: 390px;
+	resize: none;
+	color: #fff;
+}
+#agree {
+	display: none;
+}
+.text_5 label {
+	color: #fff;
+}
+.text_5 label::before {
+	padding: 2px 5px 0px;
+    background-color: #FFD500;
+    border-color: #FFD500;
+    color: #000;
+	content: "+";
+	font-weight: bold;
+	display: inline;
+	margin-right: .6em;
+	padding: 1px 5px;
+	line-height: 0;
+}
+
+#submit {
+	width: 390px;
+    padding: 20px 30px 30px;
+}
+
+.button:hover {
+	cursor: pointer;
+    border-radius: 35px;
+    text-decoration: none;
+    color: black;
 }
