@@ -853,9 +853,9 @@ margin-left: 140px;
 
 
 .summit {
-	margin-left: 200px;
+	margin-left: 150px;
 	font-size: 30px;
-	
+	font-family: 'Vidaloka', serif;
 }
 
 
@@ -1117,7 +1117,7 @@ section.join .form .input-wrapper {
 }
 
 	.words_7 {
-	padding-bottom: 250px;
+	padding: 0px 0px 50px 0px;
 	font-size: 50px;
 }
 
@@ -1141,7 +1141,7 @@ section.join .form .input-wrapper {
 .words_8 {
 	padding-left: 0px;
 	font-size: 30px;
-	padding-bottom: 160px;
+	padding:20px 0px 20px 0px;
 }
 
 .words_10 {
