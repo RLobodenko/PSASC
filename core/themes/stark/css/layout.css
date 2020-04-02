@@ -525,6 +525,10 @@ position:relative;
   height: 100%;
 }
 
+@media screen and (max-width: 360px) {
+div.second {width: 350px;}
+}
+
 
 
 
