@@ -693,7 +693,58 @@ background-color: #FEF9EC;
 background-color: #FFD500;;	
 }
 
+@media screen and (max-width: 360px) {
+div.second {width: 350px;}
+}
 
+@media screen and (max-width: 360px) {
+div.main {width: 350px;}
+}
+
+
+
+@media screen and (max-width: 360px) {
+div.table_1 {width: 350px;}
+}
+
+
+@media screen and (max-width: 360px) {
+div.yellow_1 {width: 350px;}
+}
+
+@media screen and (max-width: 360px) {
+div.agenda {width: 350px;}
+}
+
+@media screen and (max-width: 360px) {
+div.footer {width: 350px;}
+}
+
+
+.second {
+	width: 100%;
+}
+
+.main {
+	width: 100%;	
+}
+
+.table_1 {
+	width: 100%;
+}
+
+.yellow_1 {
+	width: 100%;
+}
+
+
+.agenda {
+	width: 100%;
+}
+
+.footer {
+	width: 100%;
+}
 
 
 
